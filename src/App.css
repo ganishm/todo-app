@@ -36,3 +36,111 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+.app-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.app-heading {
+  text-align: center;
+}
+
+.add-task-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.add-task-container input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filter-container h3 {
+  margin: 0;
+}
+
+.status-filter {
+  display: flex;
+  align-items: center;
+}
+
+.status-filter label {
+  margin-right: 10px;
+}
+
+.todo-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status-dropdown {
+  cursor: pointer;
+  padding: 5px;
+  background-color: #eee;
+}
+
+.status-dropdown:hover {
+  background-color: #ddd;
+}
+
+.edit-delete-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-delete-buttons button {
+  cursor: pointer;
+  padding: 5px;
+}
+
+/* TodoApp.css */
+.todo-app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.app-title {
+  text-align: center;
+  color: #333;
+}
+
+.add-task-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.add-task-container input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.add-task-container button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-task-container button:hover {
+  background-color: #45a049;
+}
+
+/* Additional styles for TodoList component can be added here */
+

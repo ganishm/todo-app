@@ -1,0 +1,38 @@
+/* TodoApp.css */
+.todo-app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .app-title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .add-task-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .add-task-container input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+  }
+  
+  .add-task-container button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-task-container button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Additional styles for TodoList component can be added here */
+  
